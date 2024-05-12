@@ -5,7 +5,7 @@
     margin: auto;
     border: 20px solid #EAF0F6;
     border-radius: 50%;
-    border-top: 20px solid #FF7A59;
+    border-top: 20px solid  rgb(0,125,27);;
     width: 200px;
     height: 200px;
     animation: spinner 4s linear infinite;
@@ -16,7 +16,7 @@
   }
 
 
-  
+
 body{
     font-family: 'poppins','sans-serif';
    /* display: flex;
@@ -28,9 +28,9 @@ body{
 
 .home{
     display: flex;
-    flex-direction: column;
+     /* flex-direction: column; */
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     height: 100vh;
 }
 
@@ -41,20 +41,31 @@ nav{
     z-index: 5;
 }
 
-.hero-img {
-    /* -webkit-animation: morph 8s ease-in-out infinite; */
-
-    background-image: url(../Assets/profile/IMG_20210504_051307.jpg);
-    background-position: 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid #2d2e32;
-    border-radius: 20%;
-    height: 20rem;
-    position: relative;
-    transition: all 1s ease-in-out;
-    width: 20rem;
-  }
+.hero-img{
+        -webkit-animation: morph 8s ease-in-out infinite;
+    
+        animation: morph 8s ease-in-out infinite;
+        background-image: url(../Assets/profile/IMG_20210504_051307.jpg);
+        background-position: 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid #2d2e32;
+        border-radius: 30% 40% 30% 70%/60% 30% 70% 40%;
+        height: 20rem;
+        position: relative;
+        transition: all 1s ease-in-out;
+        width: 20rem;
+      }
+      @keyframes morph{
+        0% {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }50% {
+            border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        }
+        100% {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
+      }
   
 
 
@@ -63,5 +74,9 @@ nav{
     font-weight: 600;
   }
 
+
+.about{
+    max-width: 100vw;
+}
 
 
