@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=M+PLUS+1+Code:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'poppins','sans-serif';
+   /* display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center; */
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+nav{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    width: 100vw;
+    z-index: 5;
+}
+
+.hero-img {
+    /* -webkit-animation: morph 8s ease-in-out infinite; */
+
+    background-image: url(..//Assets/profile/IMG_20210504_051307.jpg);
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 20%;
+    height: 20rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 20rem;
+  }
+  
+
+
+  .hero-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+
+

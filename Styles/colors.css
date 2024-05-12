@@ -1,0 +1,29 @@
+.purple-text{
+    color: blueviolet;
+    /* font-weight: 800;
+    font-size: 5.5rem; */
+}
+.blue{
+    color: rgb(0,122,255);
+}
+.blue-deep{
+    color: rgb(10,132,255);
+}
+.blue-dark{
+    color: rgb(0,64,221);
+}
+.blue-light{
+    color: rgb(64,156,255);
+}
+.green{
+    color: rgb(40,205,65);
+}
+.green-deep{
+    color: rgb(50,215,75);
+}
+.green-dark{
+    color: rgb(0,125,27);
+}
+.green-light{
+    color: rgb(49,222,75);
+}
