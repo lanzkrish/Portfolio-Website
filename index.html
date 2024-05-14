@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="./Styles/media.css">
 
     <title>Dhananjay</title>
+    <link rel="shortcut icon" href="./Assets/profile/IMG_20210504_051307.jpg" type="image/x-icon">
 </head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container w-100 ">
             <a href="./index.html" class="navbar-brand fw-bold">Dhananjay</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,18 +30,19 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                 </ul>
-                <a href="./index.html" class="btn mb-2 mb-lg-0">Home</a>
-                <a href="" class="btn mb-2 mb-lg-0">My Works</a>
-                <a href="#About" class="btn mb-2 mb-lg-0">About</a>
+                <a href="#home" class="btn mb-2 mb-lg-0">Home</a>
+                <a href="#projects" class="btn mb-2 mb-lg-0">My Works</a>
+                <a href="#about" class="btn mb-2 mb-lg-0">About</a>
                 <a href="" class="btn mb-2 mb-lg-0">Contact</a>
+                <a href="https://bento.me/lanzkrish" target="_blank" class="btn mb-2 mb-lg-0">Bento</a>
             </div>
         </div>
     </nav>
 
-    <section class="home  bg-light w-100">
+    <section class="home  bg-light w-100" id="home">
         <div class="container">
             <div class="content-fluid">
-                <div class="row d-flex flex-row justify-content-center hero-main">
+                <div class="row d-flex flex-row justify-content-center hero-main ">
                     <div class="col-lg-6 col-sm-4 hero-text">
                         <h1><span class="fw-bolder"><span class="green-dark">Front-End React</span> Developer</span></h1>
                         <p>Hi, I'm Dhananjay. A passionate Front-end React Developer based in Bhubaneswar, India. 📍</p>
@@ -84,37 +86,31 @@
 
 
 
-    <section>
-       
-    </section>
-
-
-    <!-- <section class="about" id="about">
+    <section class="about" id="about">
         <div class="container-fluid">
-            <div class="about-content row d-flex justify-content-center">
-                <div class="col-lg-6 img-side ">
-                    <img src="/static/media/working-emoji.c5325f52b5be329995a5.png" alt="emoji" class="work-emoji">
-                    <img src="/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt="mee" class="img-side__main-img">
+            <div class="about-content row d-flex justify-content-end">
+                <div class="col-lg-6 img-side d-flex flex-row  justify-content-center ">
+                    <!-- <img src="/static/media/working-emoji.c5325f52b5be329995a5.png" alt="emoji" class="work-emoji"> -->
+                    <!-- <img src="/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt="mee" class="img-side__main-img"> -->
                     <span><img src="./Assets/About/about-img.62b47e7f183d4b4e9feb.webp" height="250px"
                             alt="text"></span>
                 </div>
                 <div class="col-lg-6 text-side ">
                     <h3>About me</h3>
-                    <h4>Front-end Developer <br> based in Belgrade, Serbia 📍</h4>
-                    <p>Hey, my name is Stefan, and I'm a Frontend Developer. My passion is to create and develop a clean
-                        UI/UX for my users.My main stack currently is React/Next.js in combination with Tailwind
-                        CSS and TypeScript.</p>
+                    <h4>Front-end Developer <br> based in Bhubaneswar, India 📍</h4>
+                    <p>Hey, my name is Dhananjay, and I'm a Frontend Developer. <br>My passion is to create and develop a clean
+                        UI/UX for my users.<br> My main stack currently is HTML CSS ReactJs.</p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
-    <!-- <section id="projects" class="project">
-        <div class="container">
-            <h2 class="new-projects">New projects coming soon.. 🤠</h2>
+    <section id="projects" class="project  bg-light">
+        <div class="container-fluid  w-100">
+            <h2 class="new-projects">coming soon.. 🤠</h2>
         </div>
-    </section> -->
+    </section>
 
     <script src="https://kit.fontawesome.com/703101d3ff.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
