@@ -1,11 +1,14 @@
-@media(min-width:990px){
+@media(min-width:992px){
     section .container{
         margin-left: 150px !important;
     }
     
 
 }
-@media(max-width:990px){
+@media(max-width:992px){
+    body{
+        width: 100vw;
+    }
     section .container{
         margin-left: 0px !important;
     }
