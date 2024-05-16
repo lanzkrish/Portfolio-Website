@@ -5,6 +5,14 @@
     
 
 }
+@media(max-width:1399px){
+    .featurecards{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+
+}
 @media(max-width:991px){
     body{
         width: 100vw;
