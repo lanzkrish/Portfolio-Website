@@ -100,11 +100,42 @@ nav{
 
 .project{
   text-align: center;
-  height: 700px;
+  height: min-content;
 
   
 }
 .project h2{
+  text-align: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+.grid{
+  display: grid;
+  
+}
+
+.featurecards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  padding: 20px;
+  margin: 10px;
+  gap: 30px;
+}
+
+.more{
+  text-align: center;
+  height: 100vh;
+
+  
+}
+.more h1{
   text-align: center;
   height: 700px;
   display: flex;
