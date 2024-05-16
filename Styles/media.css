@@ -8,7 +8,7 @@
 @media(max-width:1399px){
     .featurecards{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
     
 
@@ -55,7 +55,7 @@
 
 }
 
-@media (max-width:767px){
+@media (max-width:700px){
     .featurecards{
         display: grid;
         grid-template-columns: auto ;
