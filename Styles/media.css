@@ -5,7 +5,7 @@
     
 
 }
-@media(max-width:992px){
+@media(max-width:991px){
     body{
         width: 100vw;
     }
@@ -47,7 +47,7 @@
 
 }
 
-@media (max-width:768px){
+@media (max-width:767px){
     .featurecards{
         display: grid;
         grid-template-columns: auto ;
