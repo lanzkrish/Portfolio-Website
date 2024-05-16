@@ -46,3 +46,10 @@
      
 
 }
+
+@media (max-width:768px){
+    .featurecards{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+}
