@@ -132,12 +132,16 @@ nav{
 .more{
   text-align: center;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center; 
 
   
 }
-.more h1{
+.more h2{
   text-align: center;
-  height: 700px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
