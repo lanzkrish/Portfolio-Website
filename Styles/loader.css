@@ -145,3 +145,9 @@
         transform: translate(100%, 100%);
     }
 }
+
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
